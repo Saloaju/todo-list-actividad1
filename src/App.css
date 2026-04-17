@@ -1,0 +1,62 @@
+/* src/App.css */
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Para la barra de navegación que es algo oscura */
+.navbar-custom {
+  background-color: #0f172a;
+  padding: 15px 20px;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #ffffff !important;
+}
+
+/* Para las tarjetas de las Metas (To do List) */
+.goal-card {
+  background-color: #bbf7d0; /* Verde pastel del diseño */
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.goal-card h5 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.goal-card p {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+.due-date-text {
+  font-weight: bold;
+}
+
+/* Botones y Formulario */
+.btn-purple {
+  background-color: #e9d5ff; /* Morado claro del botón */
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+.btn-purple:hover {
+  background-color: #d8b4fe;
+  color: #000;
+}
+.form-custom-input {
+  background-color: #e5e7eb !important; /* Gris de los inputs */
+  border: none !important;
+  border-radius: 5px !important;
+  margin-bottom: 15px;
+}
+.form-custom-label {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5px;
+}
